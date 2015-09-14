@@ -1,0 +1,1 @@
+﻿SELECT FirstName, LastName, CustomerID, Country  FROM Customer WHERE Country IS NOT "USA"
