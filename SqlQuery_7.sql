@@ -1,0 +1,1 @@
+﻿SELECT InvoiceId, Employee.FirstName, Employee.LastName FROM Customer JOIN Invoice ON Customer.CustomerId = Invoice.CustomerId JOIN Employee ON Customer.SupportRepId = Employee.EmployeeId

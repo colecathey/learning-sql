@@ -1,0 +1,1 @@
+﻿SELECT * FROM Invoice JOIN Customer ON Customer.CustomerId WHERE Customer.Country IS "Brazil"
